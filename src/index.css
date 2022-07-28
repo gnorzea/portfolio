@@ -1,3 +1,4 @@
+
 :root {
   --primary: #b08968;
   --secondary: #ddb892;
@@ -6,4 +7,58 @@
   --darker: #7f5539;
   --dark: #9c6644;
   --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+}
+
+a {
+	border-radius: 5px;
+	color: var(--dark);
+	font-weight: 700;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
+	
+}
+
+h1 {
+  color: var(--dark);
+}
+
+.about-me {
+  
+  background-color: var(--primary);
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 75%;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
 }

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.636ba9f1.css",
+    "main.js": "/portfolio/static/js/main.0d44905e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Run-Buddy.png": "/portfolio/static/media/Run-Buddy.6df835b0b08007e627ad.png",
+    "static/media/background.png": "/portfolio/static/media/background.772c0dd08f09442daaa7.png",
+    "static/media/GudEats.png": "/portfolio/static/media/GudEats.2574bf0a011953b31ec4.png",
+    "static/media/Resume.png": "/portfolio/static/media/Resume.17dea6e5acc5ac8451d6.png",
+    "static/media/taskem.png": "/portfolio/static/media/taskem.be53f2b234568d5311c6.png",
+    "static/media/Scheduler.png": "/portfolio/static/media/Scheduler.09b5fab54bb08beb65b1.png",
+    "static/media/contactme.png": "/portfolio/static/media/contactme.d7719642542e8fbf2298.png",
+    "static/media/Password.png": "/portfolio/static/media/Password.5c909eff91553c874ab7.png",
+    "static/media/CodeQuiz.png": "/portfolio/static/media/CodeQuiz.3fba07c19cfddf9e6ee5.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.cf8e349d7a20164bd1d6.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.73d0c4888c8db25d3535.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.636ba9f1.css.map": "/portfolio/static/css/main.636ba9f1.css.map",
+    "main.0d44905e.js.map": "/portfolio/static/js/main.0d44905e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.636ba9f1.css",
+    "static/js/main.0d44905e.js"
+  ]
+}

@@ -27,7 +27,8 @@ h1 {
 
 .about-me,
 form,
-.portfolio {
+.portfolio,
+.resume {
   
   background-color: var(--primary);
   width: 50%;
@@ -64,7 +65,8 @@ textarea {
   width:75%;
 }
 
-button {
+button,
+.button {
 	background: var(--primary);
 	border: 0;
 	border-radius: 5px;

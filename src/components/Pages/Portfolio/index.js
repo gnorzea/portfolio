@@ -26,7 +26,7 @@ return (
             <img src={RunBuddy} alt="RunBuddy screenshot" style={{ width: "60%" }}></img>
         </a>
     </div>
-    <div>
+    <div className='button'>
         <button>
         <a href="https://gnorzea.github.io/taskem/?" target="_blank" rel="noopener noreferrer">Taskem</a>
         </button>

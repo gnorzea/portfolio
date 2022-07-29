@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import AboutMe from './Pages/AboutMe';
-import Contact from './Pages/Contact';
+import ContactForm from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 import Nav from './Nav';
 
 
 function PageHandler() {
-    const [currentPage, setCurrentPage] = useState(AboutMe)
+    const [currentPage, setCurrentPage] = useState('ContactForm')
 
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
         }
-        if (currentPage === 'Contact') {
-            return <Contact />;
+        if (currentPage === 'ContactForm') {
+            return <ContactForm />;
         }
        if (currentPage === 'Portfolio') {
         return <Portfolio />;

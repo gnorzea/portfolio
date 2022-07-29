@@ -10,16 +10,16 @@ function Nav({ currentPage, handlePageChange }) {
                 <ul className='flex-row'>
                     <li className="mx-1">
                         <a href="#about"
-                            onClick={() => handlePageChange('About')}
-                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                            onClick={() => handlePageChange('AboutMe')}
+                            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
                         >
                             About Me
                         </a>
                     </li>
                     <li className="mx-1">
                         <a href="#contact"
-                            onClick={() => handlePageChange('Blog')}
-                            className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+                            onClick={() => handlePageChange('ContactForm')}
+                            className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
                         >
                             Get In Touch
                         </a>

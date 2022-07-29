@@ -115,3 +115,13 @@ li {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
 }
+
+.footer{
+  position:fixed;
+  background-color: var(--primary);
+  color: var(--light);
+  left: 0; 
+  bottom: 0;
+  width: 100%;
+
+}

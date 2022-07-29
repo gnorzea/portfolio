@@ -7,7 +7,7 @@ import Nav from './Nav';
 
 
 function PageHandler() {
-    const [currentPage, setCurrentPage] = useState('ContactForm')
+    const [currentPage, setCurrentPage] = useState('AboutMe')
 
     const renderPage = () => {
         if (currentPage === 'AboutMe') {

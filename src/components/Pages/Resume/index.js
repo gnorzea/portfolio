@@ -6,7 +6,7 @@ function Resume() {
     return (
         <section className='resume' >
              <button  >
-            <a href={ResumeLink} target="_blank" rel="noopener noreferrer"> Resume
+            <a href={ResumeLink} target="_blank" rel="noopener noreferrer" style={{color: '#fff'}}> Resume
             </a>
             </button>
             <div  >

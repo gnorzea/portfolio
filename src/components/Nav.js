@@ -11,7 +11,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <li className="mx-1">
                         <a href="#about"
                             onClick={() => handlePageChange('AboutMe')}
-                            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+                            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link-active'}
                         >
                             About Me
                         </a>
@@ -19,7 +19,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <li className="mx-1">
                         <a href="#contact"
                             onClick={() => handlePageChange('ContactForm')}
-                            className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
+                            className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link-active'}
                         >
                             Get In Touch
                         </a>
@@ -27,7 +27,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <li className="mx-1">
                         <a href="#portfolio"
                             onClick={() => handlePageChange('Portfolio')}
-                            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link-active'}
                         >
                             Portfolio
                         </a>
@@ -35,7 +35,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <li className="mx-1">
                         <a href="#resume"
                             onClick={() => handlePageChange('Resume')}
-                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link-active'}
                         >
                             Resume
                         </a>

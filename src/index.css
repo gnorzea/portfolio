@@ -14,15 +14,24 @@
 a {
 	border-radius: 5px;
 	color: var(--dark);
-	font-weight: 700;
+	font-weight: 100;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
+  text-decoration: none;
 	
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav-link {
+  color: var(--darker);
+  text-decoration: underline ;
+  font-weight: bolder;
 }
 
 h1 {
-  color: var(--dark);
+  color: var(--darker);
 }
 
 .about-me,
@@ -30,11 +39,12 @@ form,
 .portfolio,
 .resume {
   
-  background-color: var(--primary);
+  background-color: var(--darker);
   width: 50%;
   margin: auto;
   padding: 20px;
   margin-top: 7%;
+  margin-bottom: 15%;
   text-align: center;
 }
 
@@ -65,11 +75,9 @@ textarea {
   width:75%;
 }
 
-button,
-.button {
-	background: var(--primary);
+button {
+	background: none;
 	border: 0;
-	border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 20px;
@@ -82,9 +90,10 @@ button,
 }
 
 .error-text{
-  color: var(--error);
+color: var(--error);
  font-weight: 700;
- font-size: 20px;
+ font-size: 30px;
+ 
 }
 
 li {
@@ -118,10 +127,14 @@ li {
 
 .footer{
   position:fixed;
-  background-color: var(--primary);
+  background-color: var(--darker);
   color: var(--light);
   left: 0; 
   bottom: 0;
   width: 100%;
+  margin-top: auto;
+  font-weight: lighter;
+  font-size: large;
+
 
 }

@@ -1,3 +1,21 @@
+## Portfolio
+
+This is a SPA Portfolio that higlights my work as a Full Stack Developer
+
+## Technology Used
+
+* React
+* CSS
+* JavaScript
+
+
+## Preview
+<img src= ".src/assets/Images/forReadMe.png" alt="Website Preview"/>
+
+<a href= "https://gnorzea.github.io/portfolio/">
+Deployed Link on GitHub</a>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

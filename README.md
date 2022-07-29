@@ -10,7 +10,7 @@ This is a SPA Portfolio that higlights my work as a Full Stack Developer
 
 
 ## Preview
-<img src= ".src/assets/Images/forReadMe.png" alt="Website Preview"/>
+<img src= "./src/assets/Images/forReadMe.png" alt="Website Preview"/>
 
 <a href= "https://gnorzea.github.io/portfolio/">
 Deployed Link on GitHub</a>

@@ -26,7 +26,8 @@ h1 {
 }
 
 .about-me,
-form {
+form,
+.portfolio {
   
   background-color: var(--primary);
   width: 50%;
@@ -91,6 +92,11 @@ li {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+.inline{
+  display: inline-flex;
+  margin-top: 5%;
+  align-content: center;
 }
 
 .mx-1 {
